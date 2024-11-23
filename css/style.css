@@ -1,0 +1,121 @@
+body{
+    background: lightseagreen;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid black;
+}
+header{
+    width: 1400px;
+    height: 400px;
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.header_item{
+    width: 600px;
+    height: 310px;
+}
+img{
+    width: 100% 100%;
+}
+nav{
+    width: 1400px;
+    height: 50px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+main{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+}
+.main_item{
+    width: 1380px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main_item img{
+width: 30%;
+height: 250px;
+}
+aside{
+    width: 1400px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 10px;
+}
+.aside_item{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+   
+}
+section{
+    width: 1400px;
+    height: 450px;
+    padding: 3px;
+    gap: 5px;
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+justify-content: center;
+}
+footer{
+    clear: both;
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.p4{
+    text-align: center;
+}
+.section_item{
+    width:1380px ;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.section_item img{
+    width: 15%;
+height: 120px;
+}
+h2{
+    width: 100%;
+}
+.footer_item{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
